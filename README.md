@@ -2,8 +2,8 @@
 
 Sistema de Eventos encomendado pela Morena.
 
-[![Build Status](https://travis-ci.org/eltonjncorreia/eventex.svg?branch=master)](https://travis-ci.org/eltonjncorreia/eventex)
-[![Code Health](https://landscape.io/github/eltonjncorreia/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/eltonjncorreia/eventex/master)
+[![Build Status](https://travis-ci.org/jonatasoli/eventex.svg?branch=master)](https://travis-ci.org/jonatasoli/eventex)
+[![Code Health](https://landscape.io/github/jonatasoli/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/jonatasoli/eventex/master)
 
 ## Como desenvolver?
 
