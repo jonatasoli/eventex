@@ -6,10 +6,10 @@ from eventex.subscriptions.models import Subscription
 class SubscriptionModelTest(TestCase):
     def setUp(self):
         self.obj = Subscription(
-                name = 'Henrique Bastos',
-                cpf = '12345678901',
-                email = 'henrique@bastos.net',
-                phone = '21-99876-5432'
+                name='Henrique Bastos',
+                cpf='12345678901',
+                email='henrique@bastos.net',
+                phone='21-99876-5432'
                 )
         self.obj.save()
 
@@ -21,4 +21,8 @@ class SubscriptionModelTest(TestCase):
         self.assertIsInstance(self.obj.created_at, datetime)
 
     def test_str(self):
-        self.assertEqual('Henrique Bastos', str (self.obj))
+        self.assertEqual('Henrique Bastos', str(self.obj))
+
+    def test_paid_default_to_false(self):
+        """By default paid must be False."""
+        self.assertEqual(False, self.obj.paid)
